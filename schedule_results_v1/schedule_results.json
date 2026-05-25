@@ -1,0 +1,322 @@
+{
+  "uniform_nfe2": {
+    "schedule_name": "uniform",
+    "nfe": 2,
+    "fid": -200.82290561048364,
+    "precision": 0.913,
+    "recall": 0.005,
+    "overall_accuracy": 0.09399999678134918,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.019999999552965164,
+      "cat": 0.5799999833106995,
+      "deer": 0.1899999976158142,
+      "dog": 0.029999999329447746,
+      "frog": 0.009999999776482582,
+      "horse": 0.0,
+      "ship": 0.10999999940395355,
+      "truck": 0.0
+    }
+  },
+  "uniform_nfe4": {
+    "schedule_name": "uniform",
+    "nfe": 4,
+    "fid": -288.47553621690207,
+    "precision": 0.959,
+    "recall": 0.063,
+    "overall_accuracy": 0.09399999678134918,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.11999999731779099,
+      "cat": 0.2800000011920929,
+      "deer": 0.20000000298023224,
+      "dog": 0.15000000596046448,
+      "frog": 0.07999999821186066,
+      "horse": 0.009999999776482582,
+      "ship": 0.10000000149011612,
+      "truck": 0.0
+    }
+  },
+  "uniform_nfe8": {
+    "schedule_name": "uniform",
+    "nfe": 8,
+    "fid": -303.71194581815325,
+    "precision": 0.908,
+    "recall": 0.219,
+    "overall_accuracy": 0.0820000022649765,
+    "per_class_accuracy": {
+      "airplane": 0.03999999910593033,
+      "automobile": 0.009999999776482582,
+      "bird": 0.12999999523162842,
+      "cat": 0.14000000059604645,
+      "deer": 0.15000000596046448,
+      "dog": 0.11999999731779099,
+      "frog": 0.10999999940395355,
+      "horse": 0.029999999329447746,
+      "ship": 0.07999999821186066,
+      "truck": 0.009999999776482582
+    }
+  },
+  "uniform_nfe32": {
+    "schedule_name": "uniform",
+    "nfe": 32,
+    "fid": -293.2973910124855,
+    "precision": 0.823,
+    "recall": 0.433,
+    "overall_accuracy": 0.0820000022649765,
+    "per_class_accuracy": {
+      "airplane": 0.10000000149011612,
+      "automobile": 0.05000000074505806,
+      "bird": 0.17000000178813934,
+      "cat": 0.05999999865889549,
+      "deer": 0.07000000029802322,
+      "dog": 0.07000000029802322,
+      "frog": 0.17000000178813934,
+      "horse": 0.029999999329447746,
+      "ship": 0.10000000149011612,
+      "truck": 0.0
+    }
+  },
+  "log_nfe2": {
+    "schedule_name": "log",
+    "nfe": 2,
+    "fid": -37.152299767012806,
+    "precision": 0.371,
+    "recall": 0.0,
+    "overall_accuracy": 0.09300000220537186,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.0,
+      "cat": 0.8100000023841858,
+      "deer": 0.03999999910593033,
+      "dog": 0.0,
+      "frog": 0.0,
+      "horse": 0.0,
+      "ship": 0.07999999821186066,
+      "truck": 0.0
+    }
+  },
+  "log_nfe4": {
+    "schedule_name": "log",
+    "nfe": 4,
+    "fid": -195.2297871256817,
+    "precision": 0.577,
+    "recall": 0.001,
+    "overall_accuracy": 0.09300000220537186,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.019999999552965164,
+      "cat": 0.6399999856948853,
+      "deer": 0.18000000715255737,
+      "dog": 0.009999999776482582,
+      "frog": 0.0,
+      "horse": 0.0,
+      "ship": 0.07999999821186066,
+      "truck": 0.0
+    }
+  },
+  "log_nfe8": {
+    "schedule_name": "log",
+    "nfe": 8,
+    "fid": -295.6439748480517,
+    "precision": 0.89,
+    "recall": 0.028,
+    "overall_accuracy": 0.09700000286102295,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.10999999940395355,
+      "cat": 0.4399999976158142,
+      "deer": 0.20000000298023224,
+      "dog": 0.10999999940395355,
+      "frog": 0.019999999552965164,
+      "horse": 0.009999999776482582,
+      "ship": 0.07999999821186066,
+      "truck": 0.0
+    }
+  },
+  "log_nfe32": {
+    "schedule_name": "log",
+    "nfe": 32,
+    "fid": -311.25130376933004,
+    "precision": 0.868,
+    "recall": 0.272,
+    "overall_accuracy": 0.0820000022649765,
+    "per_class_accuracy": {
+      "airplane": 0.07000000029802322,
+      "automobile": 0.03999999910593033,
+      "bird": 0.14000000059604645,
+      "cat": 0.17000000178813934,
+      "deer": 0.10000000149011612,
+      "dog": 0.11999999731779099,
+      "frog": 0.07999999821186066,
+      "horse": 0.019999999552965164,
+      "ship": 0.07000000029802322,
+      "truck": 0.009999999776482582
+    }
+  },
+  "greedy_nfe2": {
+    "schedule_name": "greedy",
+    "nfe": 2,
+    "fid": -38.155626151571084,
+    "precision": 0.374,
+    "recall": 0.0,
+    "overall_accuracy": 0.09300000220537186,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.0,
+      "cat": 0.8100000023841858,
+      "deer": 0.03999999910593033,
+      "dog": 0.0,
+      "frog": 0.0,
+      "horse": 0.0,
+      "ship": 0.07999999821186066,
+      "truck": 0.0
+    }
+  },
+  "greedy_nfe4": {
+    "schedule_name": "greedy",
+    "nfe": 4,
+    "fid": -134.3513843767504,
+    "precision": 0.362,
+    "recall": 0.0,
+    "overall_accuracy": 0.08699999749660492,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.0,
+      "cat": 0.699999988079071,
+      "deer": 0.07999999821186066,
+      "dog": 0.009999999776482582,
+      "frog": 0.0,
+      "horse": 0.0,
+      "ship": 0.07999999821186066,
+      "truck": 0.0
+    }
+  },
+  "greedy_nfe8": {
+    "schedule_name": "greedy",
+    "nfe": 8,
+    "fid": -255.6176819919183,
+    "precision": 0.71,
+    "recall": 0.005,
+    "overall_accuracy": 0.10499999672174454,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.07000000029802322,
+      "cat": 0.5799999833106995,
+      "deer": 0.23999999463558197,
+      "dog": 0.05999999865889549,
+      "frog": 0.009999999776482582,
+      "horse": 0.0,
+      "ship": 0.09000000357627869,
+      "truck": 0.0
+    }
+  },
+  "greedy_nfe32": {
+    "schedule_name": "greedy",
+    "nfe": 32,
+    "fid": -293.2973910124855,
+    "precision": 0.823,
+    "recall": 0.433,
+    "overall_accuracy": 0.0820000022649765,
+    "per_class_accuracy": {
+      "airplane": 0.10000000149011612,
+      "automobile": 0.05000000074505806,
+      "bird": 0.17000000178813934,
+      "cat": 0.05999999865889549,
+      "deer": 0.07000000029802322,
+      "dog": 0.07000000029802322,
+      "frog": 0.17000000178813934,
+      "horse": 0.029999999329447746,
+      "ship": 0.10000000149011612,
+      "truck": 0.0
+    }
+  },
+  "classaware_nfe2": {
+    "schedule_name": "classaware",
+    "nfe": 2,
+    "fid": -200.6425200281853,
+    "precision": 0.761,
+    "recall": 0.004,
+    "overall_accuracy": 0.09799999743700027,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.009999999776482582,
+      "cat": 0.6200000047683716,
+      "deer": 0.2199999988079071,
+      "dog": 0.03999999910593033,
+      "frog": 0.0,
+      "horse": 0.0,
+      "ship": 0.09000000357627869,
+      "truck": 0.0
+    }
+  },
+  "classaware_nfe4": {
+    "schedule_name": "classaware",
+    "nfe": 4,
+    "fid": -296.7365088185396,
+    "precision": 0.926,
+    "recall": 0.046,
+    "overall_accuracy": 0.09300000220537186,
+    "per_class_accuracy": {
+      "airplane": 0.0,
+      "automobile": 0.0,
+      "bird": 0.11999999731779099,
+      "cat": 0.3700000047683716,
+      "deer": 0.18000000715255737,
+      "dog": 0.11999999731779099,
+      "frog": 0.03999999910593033,
+      "horse": 0.009999999776482582,
+      "ship": 0.09000000357627869,
+      "truck": 0.0
+    }
+  },
+  "classaware_nfe8": {
+    "schedule_name": "classaware",
+    "nfe": 8,
+    "fid": -320.22760322000534,
+    "precision": 0.909,
+    "recall": 0.139,
+    "overall_accuracy": 0.0860000029206276,
+    "per_class_accuracy": {
+      "airplane": 0.019999999552965164,
+      "automobile": 0.019999999552965164,
+      "bird": 0.12999999523162842,
+      "cat": 0.25999999046325684,
+      "deer": 0.12999999523162842,
+      "dog": 0.14000000059604645,
+      "frog": 0.05999999865889549,
+      "horse": 0.019999999552965164,
+      "ship": 0.07000000029802322,
+      "truck": 0.009999999776482582
+    }
+  },
+  "classaware_nfe32": {
+    "schedule_name": "classaware",
+    "nfe": 32,
+    "fid": -301.7343411743377,
+    "precision": 0.851,
+    "recall": 0.337,
+    "overall_accuracy": 0.0820000022649765,
+    "per_class_accuracy": {
+      "airplane": 0.10000000149011612,
+      "automobile": 0.05000000074505806,
+      "bird": 0.17000000178813934,
+      "cat": 0.11999999731779099,
+      "deer": 0.07999999821186066,
+      "dog": 0.10000000149011612,
+      "frog": 0.07999999821186066,
+      "horse": 0.029999999329447746,
+      "ship": 0.07999999821186066,
+      "truck": 0.009999999776482582
+    }
+  }
+}
